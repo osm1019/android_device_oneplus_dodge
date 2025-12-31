@@ -7,4 +7,18 @@
 <resources>
     <!-- Whether the device supports wireless charging or not -->
     <bool name="config_deviceSupportsWirelessCharging">true</bool>
+    
+        <!-- Paths to the libraries that contain device specific key handlers -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system_ext/priv-app/DeviceSettings/DeviceSettings.apk</item>
+        <item>/system_ext/priv-app/Settings/Settings.apk</item>
+    </string-array>
+
+    <!-- Names of the key handler classes -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>org.lineageos.device.settings.KeyHandler</item>
+        <item>com.android.settings.lineage.gestures.KeyHandler</item>
+    </string-array>
+            
+    <string name="config_alertSliderIntent">org.lineageos.device.settings.UPDATE_SLIDER_POSITION</string>
 </resources>
