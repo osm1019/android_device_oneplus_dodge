@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/alpha_dodge.mk
+    $(LOCAL_DIR)/voltage_dodge.mk

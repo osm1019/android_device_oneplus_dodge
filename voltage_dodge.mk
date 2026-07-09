@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/dodge/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Device config
 TARGET_HAS_UDFPS := true
@@ -54,7 +54,7 @@ TARGET_INCLUDE_AXFX := true
 ALPHA_BUILD_TYPE := Official
 ALPHA_MAINTAINER := OscarM1019
 
-PRODUCT_NAME := alpha_dodge
+PRODUCT_NAME := voltage_dodge
 PRODUCT_DEVICE := dodge
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
